@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
           <h2> Is this correct? </h2>
+          <p className={"navH"}> Is this applied? </p>
       </header>
     </div>
   );
