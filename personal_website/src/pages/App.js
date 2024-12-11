@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import Projects from "./Projects";
+import Writing from "./Writing";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/projects" element = {<Projects/>} />
+          <Route path="/writing" element = {<Writing/>} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

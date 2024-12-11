@@ -89,6 +89,7 @@ h1, h2, h3 {
 .inactiveTab {
     color: #4387FF;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .inactiveTab:hover {
