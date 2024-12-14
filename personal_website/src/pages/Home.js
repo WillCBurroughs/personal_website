@@ -1,5 +1,6 @@
 import React from "react";
 import NavBarDesktop from '../components/molecules/NavBarDesktop';
+import NavBarMobile from '../components/molecules/NavBarMobile'
 import '../App.css';
 
 // function App() {
@@ -25,7 +26,7 @@ export default function Home() {
 
     <div className="App">
       <header className="App-header">
-      <NavBarDesktop/>
+      <NavBarMobile/>
 
       {/* <LogoHeader headerText="Hello!" />
       <LogoImage />
