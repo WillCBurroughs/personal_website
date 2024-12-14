@@ -3,7 +3,7 @@ import LogoImage from '../atoms/LogoImage';
 import ToggleLight from '../atoms/ToggleLight';
 import { NavLink } from 'react-router-dom';
 
-function NavBarDesktop(props) {
+function NavBarMobile(props) {
     return (
         <>
             <div className="inlineContainer">
@@ -19,4 +19,4 @@ function NavBarDesktop(props) {
     );
 }
 
-export default NavBarDesktop;
+export default NavBarMobile;

@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarDesktop from '../components/molecules/NavBarDesktop';
+import NavBar from "../components/organisms/NavBar";
 import '../App.css';
 
 
@@ -9,7 +9,7 @@ export default function Writing() {
 
     <div className="App">
       <header className="App-header">
-      <NavBarDesktop/>
+      <NavBar/>
 
       </header>
     </div>
