@@ -127,3 +127,9 @@ h1, h2, h3 {
     border-left: 8px solid #ff6f61; 
     transform: rotate(90deg); 
 }
+
+.homeHero {
+    height: 75vh;
+    width: 100vw; 
+    background-color: rgb(0, 0, 0);
+}

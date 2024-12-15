@@ -22,9 +22,8 @@ import '../App.css';
 
 export default function Home() {
   return (
-
-    <div className="App">
-      <header className="App-header">
+    <div className="homeHero">
+      {/* <header className="App-header"> */}
       <NavBar/>
 
       {/* <LogoHeader headerText="Hello!" />
@@ -32,8 +31,7 @@ export default function Home() {
 
           <h2> Is this correct? </h2>
           <p className={"navH"}> Is this applied? </p> */}
-      </header>
+      {/* </header> */}
     </div>
-    
   );
 }
