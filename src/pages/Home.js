@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/organisms/NavBar";
+import HomeHeroLeft from "../components/molecules/HomeHeroLeft"
 import '../App.css';
 
 // function App() {
@@ -23,15 +24,10 @@ import '../App.css';
 export default function Home() {
   return (
     <div className="homeHero">
-      {/* <header className="App-header"> */}
       <NavBar/>
+      <HomeHeroLeft/>
+      
 
-      {/* <LogoHeader headerText="Hello!" />
-      <LogoImage />
-
-          <h2> Is this correct? </h2>
-          <p className={"navH"}> Is this applied? </p> */}
-      {/* </header> */}
     </div>
   );
 }
