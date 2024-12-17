@@ -4,6 +4,7 @@ import HomeHeroLeft from "../components/molecules/HomeHeroLeft"
 import '../App.css';
 import ShadowBlur from "../components/atoms/ShadowBlur"
 import MouseDownHeader from "../components/atoms/MouseDownHeader";
+import HomeHeroRight from "../components/molecules/HomeHeroRight";
 
 // function App() {
 //   return (
@@ -27,7 +28,10 @@ export default function Home() {
   return (
     <div className="homeHero">
       <NavBar/>
-      <HomeHeroLeft/>
+      <div className="homeHeroContainer">
+        <HomeHeroLeft />
+        <HomeHeroRight />
+      </div>
       <ShadowBlur width = {1600}/>
       <MouseDownHeader/>
     </div>
