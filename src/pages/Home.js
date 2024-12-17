@@ -3,6 +3,7 @@ import NavBar from "../components/organisms/NavBar";
 import HomeHeroLeft from "../components/molecules/HomeHeroLeft"
 import '../App.css';
 import ShadowBlur from "../components/atoms/ShadowBlur"
+import MouseDownHeader from "../components/atoms/MouseDownHeader";
 
 // function App() {
 //   return (
@@ -28,7 +29,7 @@ export default function Home() {
       <NavBar/>
       <HomeHeroLeft/>
       <ShadowBlur width = {1600}/>
-
+      <MouseDownHeader/>
     </div>
   );
 }

@@ -17,10 +17,10 @@ function HomeHeroleft() {
                 <a href="#">Contact Me</a>
             </div>
             <div class="holdSocials">
-                <img src = {Facebook} width = {"30px"} />
-                <img src = {Github} width = {"30px"} />
-                <img src = {Instagram} width = {"30px"} />
-                <img src = {LinkedIn} width = {"30px"} />
+               <a href="https://www.linkedin.com/in/william-carson-burroughs/"><img src = {LinkedIn} width = {"30px"} /></a>
+               <a href="https://github.com/WillCBurroughs"><img src = {Github} width = {"30px"} /></a>
+               <a href="https://www.instagram.com/w.burroughs/"><img src = {Instagram} width = {"30px"} /></a>
+               <a href="https://www.facebook.com/william.burroughs.1610/"><img src = {Facebook} width = {"30px"} /></a>
             </div>
         </div>
     );

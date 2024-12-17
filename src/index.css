@@ -206,6 +206,10 @@ h1, h2, h3 {
     margin-top: 120px;
   }
 
+  .holdSocials a {
+    z-index: 5;
+  }
+
   .blurredCircle {
     border-radius: 50%; /* Makes it a perfect circle */
     
@@ -220,5 +224,12 @@ h1, h2, h3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -35%);
+  }
+
+  .mouseDown {
+    position: absolute;
+    left: 50%; 
+    top: 70%;
+    transform: translate(0%, -90px);
   }
