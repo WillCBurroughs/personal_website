@@ -138,10 +138,24 @@ h1, h2, h3 {
 .homeHeroLeftDiv {
     color: white;
     z-index: 5;
-    margin-top: 70px;
     padding-left: 15vw;
     padding-top: 12vh;
 }
+
+.homeHeroRightDiv {
+    z-index: 5;
+    padding-right: 15vw;
+    padding-top: 12vh;
+}
+
+.homeHeroContainer {
+    display: flex; /* Align children (divs) in a row */
+    justify-content: space-between; /* Space evenly between the two divs */
+    align-items: center; /* Vertically align them in the center */
+    width: 100%; /* Ensure full width */
+    margin-top: 70px; /* Keeps consistent spacing */
+  }
+  
 
 .nameHeroLeft {
     color: rgba(255, 255, 255, 0.43);
@@ -232,4 +246,26 @@ h1, h2, h3 {
     left: 50%; 
     top: 70%;
     transform: translate(0%, -90px);
+  }
+
+
+  .imageContainer {
+    position: relative; 
+    padding-left: 15vw;
+    width: 400px;
+    height: auto; 
+  }
+  
+  .mainImage {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .overlayImage {
+    position: absolute; 
+    top: -17%; 
+    left: 30%; 
+    width: 70%; 
+    height: auto; 
+    pointer-events: none; 
   }
