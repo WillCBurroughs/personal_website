@@ -180,6 +180,7 @@ h1, h2, h3 {
     font-weight: 300;
     letter-spacing: 1px;
     transition: color 0.3s ease;
+    z-index: 3;
   }
   
   .arrowLink a::after {
@@ -188,6 +189,7 @@ h1, h2, h3 {
     right: -25px; 
     color: rgba(255, 120, 67, 1); 
     transition: transform 0.3s ease;
+    z-index: 3;
   }
   
   .arrowLink a:hover {
