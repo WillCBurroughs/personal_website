@@ -133,6 +133,7 @@ h1, h2, h3 {
     height: 75vh;
     width: 100vw; 
     background-color: rgb(0, 0, 0);
+    margin-bottom: 0px;
 }
 
 .homeHeroLeftDiv {
@@ -269,3 +270,12 @@ h1, h2, h3 {
     height: auto; 
     pointer-events: none; 
   }
+
+  .meHomeSection {
+    height: 50vh;
+    width: 100vw;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin-top: -20px;
+}
