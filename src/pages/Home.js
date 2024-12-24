@@ -5,6 +5,7 @@ import '../App.css';
 import ShadowBlur from "../components/atoms/ShadowBlur"
 import MouseDownHeader from "../components/atoms/MouseDownHeader";
 import HomeHeroRight from "../components/molecules/HomeHeroRight";
+import MeImage from "../components/atoms/MeImage";
 
 // function App() {
 //   return (
@@ -37,7 +38,9 @@ export default function Home() {
       <MouseDownHeader/>
     </div>
     <div className="meHomeSection">
-        <p>Hello</p>
+        <div className="holdMe">
+            <MeImage/>
+        </div>
     </div>
     </>
   );
