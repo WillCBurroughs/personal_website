@@ -26,6 +26,7 @@ import HomeHeroRight from "../components/molecules/HomeHeroRight";
 
 export default function Home() {
   return (
+    <>
     <div className="homeHero">
       <NavBar/>
       <div className="homeHeroContainer">
@@ -35,5 +36,9 @@ export default function Home() {
       <ShadowBlur width = {1600}/>
       <MouseDownHeader/>
     </div>
+    <div className="meHomeSection">
+        <p>Hello</p>
+    </div>
+    </>
   );
 }
