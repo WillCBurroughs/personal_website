@@ -326,4 +326,17 @@ h1, h2, h3 {
     .homeProjectsSection{
         height: 120vh;
         width: 100vw;
+        overflow: hidden;
     }
+
+    .blurProjects {
+        position: relative;
+        border-radius: 20%; /* Makes it a perfect circle */
+        background: radial-gradient(
+          circle, 
+          rgba(22, 22, 230, 0.2) 0%,   /* Center color */
+          rgba(64, 64, 169, 0.12) 50%,  /* Mid-point fade */
+          transparent 100%             /* Fades to transparent at the edges */
+        );
+        margin-top: -105px;
+      }

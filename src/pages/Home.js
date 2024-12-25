@@ -6,6 +6,7 @@ import ShadowBlur from "../components/atoms/ShadowBlur"
 import MouseDownHeader from "../components/atoms/MouseDownHeader";
 import HomeHeroRight from "../components/molecules/HomeHeroRight";
 import MeImage from "../components/atoms/MeImage";
+import MyProjectsDesktop from "../components/molecules/MyProjectsDesktop";
 
 // function App() {
 //   return (
@@ -50,9 +51,7 @@ export default function Home() {
             Explore my work and see how I turn ideas into reality, one project at a time. Let’s create something extraordinary together.            </p>
         </div>
     </div>
-    <div className="homeProjectsSection">
-        
-    </div>
+    <MyProjectsDesktop/>
     </>
   );
 }
