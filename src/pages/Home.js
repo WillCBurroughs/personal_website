@@ -40,6 +40,9 @@ export default function Home() {
     <div className="meHomeSection">
         <div className="holdMe">
             <MeImage/>
+            <div className="holdIntro">
+                <h3 className="meIntro">Hi, I'm <span className="blueHeader">Will Burroughs </span></h3>
+            </div>
         </div>
     </div>
     </>
