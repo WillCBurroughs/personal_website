@@ -12,11 +12,11 @@ function HomeHeroleft() {
             <div className="holdHeaderHeroLeft">
                 <h2 className="mainHeaderHeroleft"> <span className="blueHeader">I Turn Ideas Into Functional, High-Performance </span> Solutions That Deliver</h2>
             </div>
-            <div class="arrowLink">
+            <div className="arrowLink">
                 <a href="#">My Projects</a>
                 <a href="#">Contact Me</a>
             </div>
-            <div class="holdSocials">
+            <div className="holdSocials">
                <a href="https://www.linkedin.com/in/william-carson-burroughs/"><img src = {LinkedIn} width = {"30px"} /></a>
                <a href="https://github.com/WillCBurroughs"><img src = {Github} width = {"30px"} /></a>
                <a href="https://www.instagram.com/w.burroughs/"><img src = {Instagram} width = {"30px"} /></a>
