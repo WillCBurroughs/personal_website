@@ -229,6 +229,11 @@ h1, h2, h3 {
     z-index: 5;
   }
 
+  .meIntro {
+    color: white;
+    font-size: 36px;
+  }
+
   .blurredCircle {
     position: absolute;
     border-radius: 50%; /* Makes it a perfect circle */
@@ -292,4 +297,28 @@ h1, h2, h3 {
 
     .holdMe {
         margin-left: 15vw;
+        display: flex; 
+    }
+
+    .holdIntro {
+        margin-left: 14vw;
+        margin-top: 3.3vh;
+    }
+
+    .orangeLine {
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #FF7843;
+        margin-left: 34vw;
+        margin-top: 15vh;
+    }
+
+    .textIntro{
+        color: white;
+        font-family: "Jura", sans-serif;
+        position: absolute;
+        margin-left: 34vw;
+        margin-top: 19vh;
+        width: 600px;
     }

@@ -40,6 +40,14 @@ export default function Home() {
     <div className="meHomeSection">
         <div className="holdMe">
             <MeImage/>
+            <div className="holdIntro">
+                <h3 className="meIntro">Hi, I'm <span className="blueHeader">Will Burroughs </span></h3>
+            </div>
+            <div className="orangeLine"></div>
+            <p className="textIntro">
+
+            Welcome to my portfolio! I'm William Burroughs, a dedicated software architect with a passion for crafting innovative solutions in fintech and beyond. With expertise in cloud computing, app development, and AWS architecture, I aim to revolutionize the digital landscape while building a career that makes a meaningful impact      <br/> <br/>
+            Explore my work and see how I turn ideas into reality, one project at a time. Let’s create something extraordinary together.            </p>
         </div>
     </div>
     </>
