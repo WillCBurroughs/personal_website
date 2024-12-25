@@ -283,10 +283,10 @@ h1, h2, h3 {
   .meHomeSection {
     height: 50vh;
     width: 100vw;
-    z-index: 2;
+    z-index: -1;
     background-color: rgb(0, 0, 0);
     padding: 0px;
-    margin-top: -20px;  
+    margin-top: 0px;  
 
     background-image: url('/Users/williamburroughs/Desktop/personal_website/src/images/MeHomeHeader.svg'); 
     background-size: cover; 
@@ -321,4 +321,9 @@ h1, h2, h3 {
         margin-left: 34vw;
         margin-top: 19vh;
         width: 600px;
+    }
+
+    .homeProjectsSection{
+        height: 120vh;
+        width: 100vw;
     }

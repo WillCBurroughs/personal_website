@@ -50,6 +50,9 @@ export default function Home() {
             Explore my work and see how I turn ideas into reality, one project at a time. Let’s create something extraordinary together.            </p>
         </div>
     </div>
+    <div className="homeProjectsSection">
+        
+    </div>
     </>
   );
 }
