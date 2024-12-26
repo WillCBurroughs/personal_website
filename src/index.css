@@ -397,3 +397,28 @@ h1, h2, h3 {
 
         clip-path: inset(0,0,0,0); /* Extremely useful only shows content in div that should be there */ 
     }
+
+    .letsWorkLeftDiv{
+        margin-top: -15vh;
+        margin-left: 15vw;
+
+        /* Below used to place items in same row */
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around; 
+        align-items: center; 
+        gap: 20px;
+    }
+
+    #letWork{
+        margin-left: -18vw;
+        margin-top: 7vw;
+    }
+
+    .holdLineText {
+        position: absolute;
+        display: flex; 
+        flex-direction: column; 
+        left: -19vw;
+        top: 3vw;
+    }
