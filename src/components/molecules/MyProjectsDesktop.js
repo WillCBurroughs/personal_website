@@ -2,6 +2,7 @@ import '../../App.css';
 import LatestProjects from '../atoms/LatestProjects';
 import BlurProjects from '../atoms/BlurProjects';
 import ProjectCard from './ProjectCard';
+import SpaceProject from '../../images/SpaceProject.svg'
 
 function MyProjectsDesktop(props) {
     return(
@@ -15,7 +16,11 @@ function MyProjectsDesktop(props) {
                 width = {100}
             />
 
-            <ProjectCard/>
+            <ProjectCard
+                title="The Space Project"
+                imageSrc={SpaceProject}
+                width="400px"
+            />
         </div>
     );
 }
