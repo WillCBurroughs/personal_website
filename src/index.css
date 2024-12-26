@@ -361,4 +361,13 @@ h1, h2, h3 {
     .holdProject {
         border-radius: 15px;
         border: #4387FF;
+        text-align: center;
+    }
+
+    .projectRow {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around; 
+        align-items: center; 
+        padding: 0 20px; 
     }

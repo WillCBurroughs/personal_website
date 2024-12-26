@@ -16,11 +16,23 @@ function MyProjectsDesktop(props) {
                 width = {100}
             />
 
-            <ProjectCard
-                title="The Space Project"
-                imageSrc={SpaceProject}
-                width="400px"
-            />
+            <div className='projectRow'>
+                <ProjectCard
+                    title="The Space Project"
+                    imageSrc={SpaceProject}
+                    width="25vw"
+                />
+                <ProjectCard
+                    title="The Space Project"
+                    imageSrc={SpaceProject}
+                    width="400px"
+                />
+                <ProjectCard
+                    title="The Space Project"
+                    imageSrc={SpaceProject}
+                    width="400px"
+                />
+            </div>
         </div>
     );
 }
