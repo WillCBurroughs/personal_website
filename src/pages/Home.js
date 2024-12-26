@@ -7,6 +7,7 @@ import MouseDownHeader from "../components/atoms/MouseDownHeader";
 import HomeHeroRight from "../components/molecules/HomeHeroRight";
 import MeImage from "../components/atoms/MeImage";
 import MyProjectsDesktop from "../components/molecules/MyProjectsDesktop";
+import LetsWorkTogetherDesktop from "../components/molecules/LetsWorkTogetherDesktop";
 
 
 // function App() {
@@ -53,6 +54,7 @@ export default function Home() {
         </div>
     </div>
     <MyProjectsDesktop/>
+    <LetsWorkTogetherDesktop/>
     </>
   );
 }
