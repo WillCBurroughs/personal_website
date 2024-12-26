@@ -13,7 +13,7 @@ function MyProjectsDesktop(props) {
             </div>
             
             <BlurProjects
-                width = {100}
+                width = {90}
             />
 
             <div className='projectRow'>
@@ -25,14 +25,33 @@ function MyProjectsDesktop(props) {
                 <ProjectCard
                     title="The Space Project"
                     imageSrc={SpaceProject}
-                    width="400px"
+                    width="25vw"
                 />
                 <ProjectCard
                     title="The Space Project"
                     imageSrc={SpaceProject}
-                    width="400px"
+                    width="25vw"
                 />
             </div>
+
+            <div className='projectRow'>
+                <ProjectCard
+                    title="The Space Project"
+                    imageSrc={SpaceProject}
+                    width="25vw"
+                />
+                <ProjectCard
+                    title="The Space Project"
+                    imageSrc={SpaceProject}
+                    width="25vw"
+                />
+                <ProjectCard
+                    title="The Space Project"
+                    imageSrc={SpaceProject}
+                    width="25vw"
+                />
+            </div>
+
         </div>
     );
 }

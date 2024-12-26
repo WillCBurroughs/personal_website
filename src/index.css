@@ -248,8 +248,8 @@ h1, h2, h3 {
     left: 50%;      /* Center horizontally relative to .homeHero */
     transform: translate(-50%, -35%);
     z-index: 1;     /* Ensure it's rendered above .homeHero but below .meHomeSection */
-    height: 200%;   /* Adjust size for desired clipping effect */
-    width: 200%;
+    height: 100%;   /* Adjust size for desired clipping effect */
+    width: 100%;
   }
 
   .mouseDown {
@@ -341,6 +341,8 @@ h1, h2, h3 {
           transparent 100%             /* Fades to transparent at the edges */
         );
         margin-top: -40vh;
+        margin-left: 10vw;
+        align-content: center;
       }
 
     .latestProject {
@@ -356,11 +358,12 @@ h1, h2, h3 {
     .projectTitle {
         color: white;
         font-size: 24px;
+        margin: 50px;
     }
 
     .holdProject {
-        border-radius: 15px;
-        border: #4387FF;
+        border-radius: 15px; 
+        border: 1px solid #4387FF; 
         text-align: center;
     }
 
@@ -370,4 +373,5 @@ h1, h2, h3 {
         justify-content: space-around; 
         align-items: center; 
         padding: 0 20px; 
+        margin-top: 30px;
     }
