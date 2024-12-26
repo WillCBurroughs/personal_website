@@ -8,6 +8,7 @@ import HomeHeroRight from "../components/molecules/HomeHeroRight";
 import MeImage from "../components/atoms/MeImage";
 import MyProjectsDesktop from "../components/molecules/MyProjectsDesktop";
 
+
 // function App() {
 //   return (
 //     <div className="App">

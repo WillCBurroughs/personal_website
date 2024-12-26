@@ -230,6 +230,7 @@ h1, h2, h3 {
   }
 
   .meIntro {
+    position: relative;
     color: white;
     font-size: 36px;
   }
@@ -327,16 +328,37 @@ h1, h2, h3 {
         height: 120vh;
         width: 100vw;
         overflow: hidden;
+        align-items: center;
     }
 
     .blurProjects {
-        position: relative;
+        position: absolute;
         border-radius: 20%; /* Makes it a perfect circle */
         background: radial-gradient(
           circle, 
-          rgba(22, 22, 230, 0.2) 0%,   /* Center color */
-          rgba(64, 64, 169, 0.12) 50%,  /* Mid-point fade */
+          rgba(22, 22, 230, 0.25) 0%,   /* Center color */
+          rgba(64, 64, 169, 0.15) 50%,  /* Mid-point fade */
           transparent 100%             /* Fades to transparent at the edges */
         );
-        margin-top: -105px;
+        margin-top: -40vh;
       }
+
+    .latestProject {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    #projDesk {
+        margin-top: 30vh;
+    }
+
+    .projectTitle {
+        color: white;
+        font-size: 24px;
+    }
+
+    .holdProject {
+        border-radius: 15px;
+        border: #4387FF;
+    }
