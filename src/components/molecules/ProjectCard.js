@@ -3,11 +3,11 @@ import ProjectTitle from "../atoms/ProjectTitle";
 import ProjectImage from "../atoms/ProjectImage";
 import '../../App.css'
 
-function ProjectCard(props) {
+function ProjectCard({title, imageSrc, width}) {
   return (
     <div className="holdProject">
-        <ProjectTitle/>
-        <ProjectImage/> 
+        <ProjectTitle title={title} />
+        <ProjectImage imageSrc={imageSrc} width={width} />
     </div>
   );
 }

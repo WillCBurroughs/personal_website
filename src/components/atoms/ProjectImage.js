@@ -1,8 +1,15 @@
 import React from 'react';
 import '../../App.css';
 
-function projectImage(props) {
-    return <img src = {props.image} width = {props.size} className='projectImage' />
-}
+function ProjectImage({ imageSrc, width }) {
+    return (
+      <img
+        src={imageSrc}
+        alt="Project"
+        style={{ width: width || "100%" }}
+        className="project-image"
+      />
+    );
+  }
 
-export default projectImage;
+export default ProjectImage;

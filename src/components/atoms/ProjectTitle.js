@@ -1,8 +1,8 @@
 import '../../App.css'
 
-function ProjectTitle(props) {
+function ProjectTitle({ title }) {
   return (
-    <h3 className="projectTitle">{props.headerText}</h3>
+    <h3 className="projectTitle">{title}</h3>
   );
 }
 
