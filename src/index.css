@@ -365,7 +365,13 @@ h1, h2, h3 {
         border-radius: 15px; 
         border: 1px solid #4387FF; 
         text-align: center;
+        z-index: 4;
     }
+
+    .holdProject:hover {
+        transform: scale(1.05); /* Slight scale on hover */
+        cursor: pointer;
+      }
 
     .projectRow {
         display: flex; 
