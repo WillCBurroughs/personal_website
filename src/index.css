@@ -381,3 +381,19 @@ h1, h2, h3 {
         padding: 0 20px; 
         margin-top: 30px;
     }
+
+    .letsWorkTogether {
+        margin-top: 30vh;
+        display: flex;
+        width: 100vw;
+        height: 45vh;
+        background-color: #030915;
+
+        background-image: url('/Users/williamburroughs/Desktop/personal_website/src/images/LetsWorkBackground.svg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        position: relative; 
+
+        clip-path: inset(0,0,0,0); /* Extremely useful only shows content in div that should be there */ 
+    }
