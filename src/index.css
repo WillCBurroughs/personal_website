@@ -395,7 +395,7 @@ h1, h2, h3 {
         background-repeat: no-repeat; 
         position: relative; 
 
-        clip-path: inset(0,0,0,0); /* Extremely useful only shows content in div that should be there */ 
+        clip-path: inset(0,0,0,0); /* Extremely useful only shows content in div that should be there */
     }
 
     .letsWorkLeftDiv{
@@ -421,4 +421,11 @@ h1, h2, h3 {
         flex-direction: column; 
         left: -19vw;
         top: 3vw;
+    }
+
+    .contactMeHolder {
+        display: flex;
+        width: 100vw;
+        height: 120vh;
+        background-color: #030915;
     }

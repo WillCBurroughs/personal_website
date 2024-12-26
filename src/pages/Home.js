@@ -8,7 +8,7 @@ import HomeHeroRight from "../components/molecules/HomeHeroRight";
 import MeImage from "../components/atoms/MeImage";
 import MyProjectsDesktop from "../components/molecules/MyProjectsDesktop";
 import LetsWorkTogetherDesktop from "../components/molecules/LetsWorkTogetherDesktop";
-
+import ContactMeDesktop from "../components/molecules/ContactMeDesktop";
 
 // function App() {
 //   return (
@@ -55,6 +55,8 @@ export default function Home() {
     </div>
     <MyProjectsDesktop/>
     <LetsWorkTogetherDesktop/>
+    <ContactMeDesktop/>
+    
     </>
   );
 }
