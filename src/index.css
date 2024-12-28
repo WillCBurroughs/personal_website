@@ -471,3 +471,10 @@ h1, h2, h3 {
           );
     }
 
+    .blurHolder {
+        position:relative;
+        clip-path: inset(0);
+        height: 100%; 
+        width: 100%;
+    }
+
