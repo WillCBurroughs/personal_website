@@ -19,30 +19,53 @@ export default function FloatingLabelForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ maxWidth: "400px", margin: "auto" }}>
-      <FormElement
-        label="Name"
-        name="name"
-        value={formData.name}
-        onChange={handleChange}
-      />
-      <FormElement
-        label="Email"
-        type="email"
-        name="email"
-        value={formData.email}
-        onChange={handleChange}
-      />
-      <FormElement
-        label="Password"
-        type="password"
-        name="password"
-        value={formData.password}
-        onChange={handleChange}
-      />
-      <button type="submit" style={{ marginTop: "20px" }}>
+        <form
+            onSubmit={handleSubmit}
+            style={{
+            maxWidth: "80vw",
+            margin: "auto",
+            display: "flex", 
+            flexDirection: "column", 
+            gap: "20px", 
+        }}
+        >
+        <div
+        style={{
+            display: "flex", 
+            gap: "10px", 
+            alignItems: "center", 
+        }}
+        >
+        <FormElement
+            label="Name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+        />
+        <FormElement
+            label="Email"
+            type="text"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+        />
+        <FormElement
+            label="Password"
+            type="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+        />
+        </div>
+        <button
+        type="submit"
+        style={{
+            marginTop: "20px", // Add spacing from the inputs
+            alignSelf: "center", // Center the button
+        }}
+        >
         Submit
-      </button>
-    </form>
+        </button>
+        </form>
   );
 }

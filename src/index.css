@@ -492,7 +492,7 @@ h1, h2, h3 {
       }
       
       .form-input {
-        width: 100%;
+        width: 80%;
         padding: 10px 10px;
         font-size: 16px;
         background-color: transparent;
@@ -528,3 +528,9 @@ h1, h2, h3 {
       }
 
       /* End form css */
+
+      input:-webkit-autofill {
+        background-color: transparent !important; /* Reset background */
+        color: inherit !important; /* Inherit text color */
+        transition: background-color 5000s ease-in-out 0s; /* Hack to reset background */
+      }
