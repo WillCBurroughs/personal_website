@@ -12,6 +12,7 @@ export default function FormElement({ label, type = "text", name, value, onChang
         required
         className="form-input"
         placeholder=" " 
+        autoComplete="off"
       />
       <label className="form-label">{label}</label>
     </div>
