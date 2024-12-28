@@ -1,11 +1,19 @@
 import '../../App.css';
 import React from 'react';
 
-
-function FormElement(props) {
-    return(
-        <p>Hi</p>
-    );
+export default function FormElement({ label, type = "text", name, value, onChange }) {
+  return (
+    <div className="form-element">
+      <input
+        type={type}
+        name={name}
+        value={value}
+        onChange={onChange}
+        required
+        className="form-input"
+        placeholder=" " 
+      />
+      <label className="form-label">{label}</label>
+    </div>
+  );
 }
-
-export default FormElement;

@@ -1,6 +1,7 @@
 import React from "react";
 import '../../App.css';
 import BlueBlot from "../atoms/BlueBlot";
+import FloatingLabelForm from "./FloatingLabelForm";
 
 function ContactMeDesktop() {
     return (
@@ -12,7 +13,7 @@ function ContactMeDesktop() {
                 <BlueBlot id={"blueBlot3"} width={50} top={0} left={80} />
             </div>
             <div className="holdForm">
-
+                <FloatingLabelForm/>
             </div>
         </div>
     );

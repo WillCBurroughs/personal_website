@@ -478,3 +478,53 @@ h1, h2, h3 {
         width: 100%;
     }
 
+    .holdForm {
+        position: relative;
+        margin-top: -50vh;
+    }
+
+    /* Form CSS */
+
+    .form-element {
+        position: relative;
+        margin: 10px 0;
+        width: 100%;
+      }
+      
+      .form-input {
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 16px;
+        background-color: transparent;
+        border: 0px;
+        border-bottom: 2px solid #152B52;
+        border-radius: 0%;
+        outline: none;
+        color: #8CAADF;
+        transition: border-color 0.3s;
+      }
+      
+      .form-input:focus {
+        border-color: #007bff;
+      }
+      
+      .form-label {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        font-size: 16px;
+        color: #1B386D;
+        pointer-events: none;
+        transform: translateY(-50%);
+        transition: all 0.2s ease;
+      }
+      
+      .form-input:focus + .form-label,
+      .form-input:not(:placeholder-shown) + .form-label {
+        top: 0;
+        left: 10px;
+        font-size: 12px;
+        color: #007bff;
+      }
+
+      /* End form css */
