@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FormElement from "../atoms/FormElement"
+import SliderElement from "../atoms/Slider";
 
 export default function FloatingLabelForm() {
   const [formData, setFormData] = useState({
@@ -10,6 +11,7 @@ export default function FloatingLabelForm() {
     phone: "",
     start: "",
     password: "",
+    budget: 10000,
   });
 
   const handleChange = (e) => {
@@ -91,6 +93,15 @@ export default function FloatingLabelForm() {
             onChange={handleChange}
         />
         </div>
+        <SliderElement
+            label="Budget"
+            name="budget"
+            min="0"
+            max="50000"
+            step="1000"
+            value={formData.budget}
+            onChange={handleChange}
+        />
             <button
             type="submit"
             style={{
