@@ -4,7 +4,11 @@ import FormElement from "../atoms/FormElement"
 export default function FloatingLabelForm() {
   const [formData, setFormData] = useState({
     name: "",
+    title: "",
+    company: "",
     email: "",
+    phone: "",
+    start: "",
     password: "",
   });
 
@@ -43,29 +47,59 @@ export default function FloatingLabelForm() {
             onChange={handleChange}
         />
         <FormElement
-            label="Email"
+            label="Title"
             type="text"
+            name="title"
+            value={formData.title}
+            onChange={handleChange}
+        />
+        <FormElement
+            label="Company"
+            type="text"
+            name="company"
+            value={formData.company}
+            onChange={handleChange}
+        />
+        </div>
+        <div
+        style={{
+            display: "flex", 
+            gap: "10px", 
+            alignItems: "center", 
+            marginTop: "10vh"
+        }}
+        >
+        <FormElement
+            label="Email"
             name="email"
+            type="email"
             value={formData.email}
             onChange={handleChange}
         />
         <FormElement
-            label="Password"
-            type="password"
-            name="password"
-            value={formData.password}
+            label="Phone Number"
+            type="tel"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+        />
+        <FormElement
+            label="Desired Start Date"
+            type="date"
+            name="start"
+            value={formData.start}
             onChange={handleChange}
         />
         </div>
-        <button
-        type="submit"
-        style={{
-            marginTop: "20px", // Add spacing from the inputs
-            alignSelf: "center", // Center the button
-        }}
-        >
-        Submit
-        </button>
+            <button
+            type="submit"
+            style={{
+                marginTop: "20px", 
+                alignSelf: "center", 
+            }}
+            >
+            Submit
+            </button>
         </form>
   );
 }
