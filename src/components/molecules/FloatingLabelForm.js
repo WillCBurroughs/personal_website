@@ -68,7 +68,8 @@ export default function FloatingLabelForm() {
             display: "flex", 
             gap: "10px", 
             alignItems: "center", 
-            marginTop: "10vh"
+            marginTop: "10vh",
+            marginBottom: "10vh",
         }}
         >
         <FormElement
@@ -96,7 +97,7 @@ export default function FloatingLabelForm() {
         <SliderElement
             label="Budget"
             name="budget"
-            min="0"
+            min="1000"
             max="50000"
             step="1000"
             value={formData.budget}

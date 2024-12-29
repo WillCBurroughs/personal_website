@@ -2,9 +2,9 @@ import React from "react";
 import '../../App.css';
 
 export default function Slider({ label, name, min, max, step, value, onChange }) {
-  const calculateBackground = () => {
+  const calculateProgress = () => {
     const percentage = ((value - min) / (max - min)) * 100;
-    return `linear-gradient(to right, #FF7843 ${percentage}%, #001336 ${percentage}%)`;
+    return `${percentage}%`;
   };
 
   return (
@@ -26,8 +26,10 @@ export default function Slider({ label, name, min, max, step, value, onChange })
           step={step}
           value={value}
           onChange={onChange}
-          style={{ background: calculateBackground() }} // Apply dynamic background
           className="slider"
+          style={{
+            "--progress": calculateProgress(), // Dynamically set the progress percentage
+          }}
         />
         <div className="slider-value">${Number(value).toLocaleString()}</div>
       </div>
