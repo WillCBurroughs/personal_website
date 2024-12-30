@@ -39,7 +39,7 @@ export default function FloatingLabelForm() {
         <div
         style={{
             display: "flex", 
-            marginTop: "10vh",
+            marginTop: "5vh",
             gap: "10px", 
             alignItems: "center", 
         }}
