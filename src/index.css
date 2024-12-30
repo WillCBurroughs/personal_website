@@ -595,3 +595,40 @@ h1, h2, h3 {
     font-size: 16px;
     color: #1B386D;
   }
+
+  .arrowLink{
+    padding-left: 20px;
+}
+
+/* Apply the same styling to button */
+.buttonLink {
+    position: relative;
+    color: #4387FF; 
+    font-family: "Kreon", sans-serif; 
+    font-size: 16px; 
+    text-decoration: none;
+    margin-right: 60px; 
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+    z-index: 3;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .buttonLink::after {
+    content: "→"; 
+    position: absolute;
+    right: -25px; 
+    color: rgba(255, 120, 67, 1); 
+    transition: transform 0.3s ease;
+    z-index: 3;
+  }
+  
+  .buttonLink:hover {
+    color: #7eb3ff; 
+  }
+  
+  .buttonLink:hover::after {
+    transform: translateX(5px); 
+  }

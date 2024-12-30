@@ -127,6 +127,7 @@ export default function FloatingLabelForm() {
         </div>
             <button
             type="submit"
+            className="buttonLink"
             style={{
                 marginTop: "20px", 
                 alignSelf: "center", 
