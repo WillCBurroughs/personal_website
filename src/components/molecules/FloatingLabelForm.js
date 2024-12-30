@@ -12,6 +12,7 @@ export default function FloatingLabelForm() {
     start: "",
     password: "",
     budget: 10000,
+    details: "",
   });
 
   const handleChange = (e) => {
@@ -38,6 +39,7 @@ export default function FloatingLabelForm() {
         <div
         style={{
             display: "flex", 
+            marginTop: "10vh",
             gap: "10px", 
             alignItems: "center", 
         }}
@@ -103,8 +105,29 @@ export default function FloatingLabelForm() {
             value={formData.budget}
             onChange={handleChange}
         />
+
+        <div
+        style={{
+            display: "flex", 
+            gap: "10px", 
+            width: "93vw",
+            alignItems: "center", 
+            marginTop: "10vh",
+            marginBottom: "10vh",
+        }}
+        >
+
+        <FormElement
+            label="Project Details"
+            name="details"
+            type="text"
+            value={formData.details}
+            onChange={handleChange}
+        />
+        </div>
             <button
             type="submit"
+            className="buttonLink"
             style={{
                 marginTop: "20px", 
                 alignSelf: "center", 
