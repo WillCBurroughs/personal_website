@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/organisms/NavBar";
 import HomeHeroRight from "../components/molecules/HomeHeroRight";
-import HomeHeroLeft from "../components/molecules/HomeHeroLeft";
+import ProjectHeroLeft from "../components/molecules/ProjectHeroLeft";
 import '../App.css';
 import '../index.css';
 import ShadowBlur from "../components/atoms/ShadowBlur";
@@ -15,7 +15,7 @@ export default function Projects() {
     <div className="homeHero">
       <NavBar/>
       <div className="homeHeroContainer">
-        <HomeHeroLeft />
+        <ProjectHeroLeft />
         <HomeHeroRight />
       </div>
       <ShadowBlur width = {1600}/>

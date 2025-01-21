@@ -324,6 +324,16 @@ h1, h2, h3 {
         width: 600px;
     }
 
+    .textIntroProjects {
+        color: white;
+        font-family: "Jura", sans-serif;
+        position: relative;
+        margin-left: -14vw;
+        margin-top: -2vh;
+        margin-bottom: 10vh;
+        width: 430px;
+    }
+
     .homeProjectsSection{
         height: 120vh;
         width: 100vw;
