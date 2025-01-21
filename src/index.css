@@ -255,7 +255,7 @@ h1, h2, h3 {
   .mouseDown {
     position: absolute;
     left: 50%; 
-    top: 70%;
+    top: 90%;
     transform: translate(0%, -90px);
   }
 
