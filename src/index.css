@@ -441,7 +441,6 @@ h1, h2, h3 {
         height: 120vh; 
         overflow: hidden;
         background-color: #080810;
-
     }
 
     .blueBlot {
@@ -490,6 +489,11 @@ h1, h2, h3 {
     }
 
     .holdForm {
+        position: relative;
+        margin-top: -100vh;
+    }
+
+    .holdFormContactPage {
         position: relative;
         margin-top: -100vh;
     }
