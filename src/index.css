@@ -301,6 +301,11 @@ h1, h2, h3 {
         display: flex; 
     }
 
+    .holdMeAbout {
+        margin-right: 15vw;
+        display: flex; 
+    }
+
     .holdIntro {
         margin-left: 14vw;
         margin-top: 3.3vh;
