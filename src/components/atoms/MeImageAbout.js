@@ -3,7 +3,7 @@ import '../../App.css'
 
 function MeImageAbout() {
   return (
-    <img src = {me} style={{ width: "25vw", opacity: 1, zIndex: 5 }}/>
+    <img src = {me} style={{ width: "33vw", opacity: 0.7, zIndex: 5 }}/>
   );
 }
 

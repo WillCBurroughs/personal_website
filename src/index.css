@@ -670,3 +670,11 @@ h1, h2, h3 {
     margin-top: -7.6vh;
 
   }
+
+  .AboutMeExperienceDesktop p{
+    color: white;
+  }
+
+  .AboutMeExperienceDesktop {
+    height: 150vh;
+  }

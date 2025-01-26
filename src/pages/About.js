@@ -5,10 +5,11 @@ import AboutHeroLeft from "../components/molecules/AboutHeroLeft";
 import ShadowBlur from "../components/atoms/ShadowBlur";
 import MouseDownHeader from "../components/atoms/MouseDownHeader";
 import MeImageAbout from "../components/atoms/MeImageAbout";
+import AboutMeExperienceDesktop from "../components/molecules/AboutMeExperienceDesktop";
 
 export default function About() {
   return (
-
+    <>
     <div className="homeHero">
       <NavBar/>
       <div className="homeHeroContainer">
@@ -21,7 +22,11 @@ export default function About() {
       </div>
       <ShadowBlur width = {1600}/>
       <MouseDownHeader/>
+
+      
     </div>
-    
+
+    <AboutMeExperienceDesktop/>
+    </>
   );
 }
