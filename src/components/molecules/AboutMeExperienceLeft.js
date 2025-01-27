@@ -1,11 +1,14 @@
 import React from "react";
 import '../../index.css';
+import LineElement from "../atoms/LineElement";
+import Timeline from "../atoms/Timeline";
 
 function AboutMeExperienceLeft() {
 
     return (
         <div className="credibilityHolder">
-            <p>Holding test</p>
+            {/* <LineElement/> */}
+            <Timeline/>
         </div>
     );
 }
